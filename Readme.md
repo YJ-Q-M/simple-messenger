@@ -12,6 +12,7 @@ A lightweight messenger for local networks. No internet required – just connec
 ## Installation & Run
 
 1. First install the required packages:
+2. open your 3000 port if you want all the network to be able to connect to you
 ```bash
 npm install express multer
 Open port 3000 on your firewall (optional for other devices)
@@ -28,12 +29,12 @@ Or from other devices on the same network:
 
 text
 http://[YOUR-IP]:3000
-📁 File Structure
+ File Structure
 Messages saved in: data.json
 
 Uploaded files go to: ./static/filesss/
 
-🚀 Coming Soon
+ Coming Soon
 Private chats
 
 Group chats
@@ -42,7 +43,7 @@ Online user status
 
 Stickers support
 
-📝 Note
+ Note
 This is a basic version built for local networks. More features coming soon!
 
 
